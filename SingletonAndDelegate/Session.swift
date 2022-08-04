@@ -10,8 +10,6 @@ import Foundation
 class Session {
     
     
-    
-    
      init() {
          
          getUID()
@@ -28,20 +26,12 @@ class Session {
     var userId : Int = 0
     
     
-    
-    func connectDB() {
-        // some
-        
-        self.session = "new key"
-        
-    }
     func getUID() {
         self.userId = 12345678
     }
     func getToken () {
         self.token = "dfsdggdfghdfghfd"
     }
-    
     
     
 }
